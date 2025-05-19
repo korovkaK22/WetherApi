@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+
+# Logs
+logs
+*.log
+log/
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+
+# Sequelize migrations/temp files
+*.sqlite
+*.sqlite3
+*.db
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Jest cache
+jest-cache/
+jest-test-results.json
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+.docker/
+
+# Build
+dist/
+build/
+
+# Local database volume (optional, if you map to local FS)
+pgdata/
+
+# Swagger or API docs (if generated)
+swagger.json
+swagger.yaml
+
+# Others
+*.tgz
