@@ -1,6 +1,7 @@
 # Weather API Subscription Service
 
-This project is a Node.js-based REST API that allows users to subscribe to weather updates for a specific city. Subscribers receive weather information via email based on their selected frequency. The application integrates with WeatherAPI.com, stores subscriptions in PostgreSQL, and supports email confirmation/unsubscription. I made all of these in 2 hours with chatgpt, cause i don't know javascipt at all but i know how to program all of these in java so i quickly changed my stack.
+This project is a Node.js-based REST API that allows users to subscribe to weather updates for a specific city. Subscribers receive weather information via email based on their selected frequency. The application integrates with WeatherAPI.com, stores subscriptions in PostgreSQL, and supports email confirmation/unsubscription. I made all of these in 2 hours with chatgpt, cause i don't know javascipt at all but i know how to program all of these in java so i quickly changed my stack. 
+I don't have enough time for this project because I'm writing a diploma right now. So if I be selected for the next round, I will give for this more time.
 
 ## 📆 Stack & Technologies
 
@@ -76,6 +77,12 @@ The database is auto-synced on app startup via Sequelize.
 | POST   | `/api/subscribe`          | Subscribe to weather updates  |
 | GET    | `/api/confirm/:token`     | Confirm subscription by token |
 | GET    | `/api/unsubscribe/:token` | Unsubscribe from updates      |
+
+Example of mail content:
+
+![Картинка з Imgur](https://i.imgur.com/Wt8K2Uy.png)
+
+
 
 ## ✏️ Testing
 
